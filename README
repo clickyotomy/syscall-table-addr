@@ -13,16 +13,17 @@ HOW-TO
 	# To check out information of the newly created `.ko' file.
 	$ modinfo syscall_table_addr.ko
 
-	# To insert the module, use `insmod' command (needs root).
+	# To insert the module, use `insmod' command.
 	$ insmod syscall_table_addr.ko
 	
-	# The output is written to the kernel ring buffer (dmesg).
+	# The output is written to the kernel ring buffer.
 	$ tail -f /var/log/dmesg
 	# Alternatively, you can just run `dmesg'.
 
-	# To remove the module, use `rmmod' (needs root).
+	# To remove the module, use `rmmod'.
 	$ rmmod syscall_table_addr.ko
 
 NOTE
 ----
-	[+] This is known on x86-64 systems.
+	[+] This is known to work on x86-64 systems.
+	[+] `{ins,rm}mod' commands might need root privileges.
