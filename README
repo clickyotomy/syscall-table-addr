@@ -10,7 +10,7 @@ HOW-TO
 	# compilation, there should be a `.ko' file created.
 	$ make
 	
-	# To check out information of the newly created `.ko' file.
+	# To check details on the newly created kernel module.
 	$ modinfo syscall_table_addr.ko
 
 	# To insert the module, use `insmod' command.
