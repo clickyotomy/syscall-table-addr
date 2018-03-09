@@ -2,8 +2,8 @@
  * syscall_table_addr.c: Finds the virtual address of `sys_call_table'.
  *
  * Note: The returned value might differ from the value listed
- *	 in /boot/System.map-$(uname -r). But the addresses map
- *	 to the same physical address.
+ *	 in /boot/System.map-$(uname -r), but it maps to the 
+ *	 same physical address.
  *	 Reference: Documentation/x86/x86_64/mm.txt
  */ 
 
