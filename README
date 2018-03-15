@@ -5,7 +5,6 @@ Stupid kernel module for displaying the virtual address of the `sys_call_table'.
 
 
 HOW-TO
-------
 	# To compile the module, use the Makefile. After a successful
 	# compilation, there should be a `.ko' file created.
 	$ make
@@ -24,6 +23,5 @@ HOW-TO
 	$ rmmod syscall_table_addr.ko
 
 NOTE
-----
 	[+] This is known to work on x86-64 systems.
 	[+] `{ins,rm}mod' commands might need root privileges.
