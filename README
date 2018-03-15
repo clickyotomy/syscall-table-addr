@@ -1,7 +1,7 @@
 syscall-table-addr
 ------------------
 
-Stupid kernel module for displaying the virtual address of the `sys_call_table'.
+Stupid kernel module for displaying the virtual address of `sys_call_table'.
 
 
 HOW-TO
