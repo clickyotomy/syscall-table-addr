@@ -4,7 +4,7 @@
  * Note: The returned value might differ from the value listed
  *	 in /boot/System.map-$(uname -r), but it maps to the 
  *	 same physical address.
- *	 Reference: Documentation/x86/x86_64/mm.txt
+ *	 Reference: Documentation/x86/x86_64/mm.txt (on kernel.org).
  */ 
 
 #include <linux/init.h>
